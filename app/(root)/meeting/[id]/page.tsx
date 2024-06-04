@@ -4,7 +4,7 @@ import MeetingRoom from "@/components/MeetingRoom";
 import MeetingSetup from "@/components/MeetingSetup";
 import { useGetCallById } from "@/hooks/useGetCallById";
 import { useUser } from "@clerk/nextjs";
-import { Call, StreamCall, StreamTheme } from "@stream-io/video-react-sdk";
+import {  StreamCall, StreamTheme } from "@stream-io/video-react-sdk";
 import React, { useState } from "react";
 
 const Meeting = ({ params: { id } }: { params: { id: string } }) => {
