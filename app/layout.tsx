@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Conference",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo2.png",
+    icon: "/icons/logo4.svg",
   },
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
       <ClerkProvider appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/logo2.png",
+            logoImageUrl: "/icons/logo4.svg",
           },
           variables: {
             colorText: "#fff",
