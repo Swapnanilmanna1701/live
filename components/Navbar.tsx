@@ -9,9 +9,9 @@ const Navbar = () => {
     <nav className="flex flex-between fixed z-50 w-full bg-dark-1 px-6 py-4 lg:px-10">
       <Link href="/" className="flex items-center gap-1">
       <Image
-          src="/icons/logo2.png"
-          width={32}
-          height={32}
+          src="/icons/logo4.svg"
+          width={40}
+          height={40}
           alt="Conference logo"
           className="max-sm:size-10"
         />
