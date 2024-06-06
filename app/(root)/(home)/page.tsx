@@ -26,7 +26,7 @@ const Home = () => {
               onChange={(date) => setValues({ ...values, dateTime: date! })}
               showTimeSelect
               timeFormat="HH:mm"
-              timeIntervals={15}
+              //timeIntervals={15}
               timeCaption="time"
               dateFormat="MMMM d, yyyy h:mm aa"
               className="w-full rounded-[10px] glassmorphism p-1 focus:outline-none "
