@@ -4,11 +4,11 @@ import React from "react";
 const Home = () => {
   const now = new Date();
 
-  const time = now.toLocaleTimeString("en-IND", {
+  const time = now.toLocaleTimeString("en-IN", {
     hour: "2-digit",
     minute: "2-digit",
   });
-  const date = new Intl.DateTimeFormat("en-IND", { dateStyle: "full" }).format(
+  const date = new Intl.DateTimeFormat("en-IN", { dateStyle: "full" }).format(
     now
   );
 
